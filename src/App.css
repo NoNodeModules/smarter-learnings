@@ -1,0 +1,593 @@
+/*HOME PAGE*/
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400");
+
+.TopNavBar {
+  width: 100%;
+}
+.Loading_Img {
+  width: 100px;
+  border-radius: 50%;
+}
+.Upload {
+  background-color: #ff9318;
+  padding: 8px;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px;
+  width: fit-content;
+  text-align: center;
+}
+
+.loading {
+  margin-top: 15%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+p,
+a {
+  font-family: "Playfair Display", serif;
+}
+
+/* Generic styles */
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper a {
+  background-color: #ff9318;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s;
+  margin: 2px;
+}
+
+.wrapper a:hover {
+  opacity: 0.6;
+}
+
+/* Styles for the hero image */
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  background: url("./Images/books.jpg") center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  width: 100%;
+}
+
+.hero > * {
+  color: white;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hero > article > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.hero > article > a {
+  padding: 1rem;
+  margin-top: 0.75rem;
+}
+.webpage li {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  list-style-type: none;
+}
+/* webpage styles */
+.webpage {
+  padding: 2rem;
+}
+
+.webpage ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.webpage li {
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+}
+
+.webpage figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.webpage img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.webpage figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.webpage p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem 0.75rem;
+  color: #666666;
+}
+
+.webpage a {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  padding: 0.75rem;
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+/*my code*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.queries,
+.signin,
+.studentsignin,
+.facultysignin,
+.adminSignin,
+.forgotpassword,
+.addcourses,
+.adminsignin,
+.updateuser {
+  width: 50%;
+  color: rgb(128, 128, 128);
+  margin-right: auto;
+  margin-left: auto;
+}
+.signup,
+.createassets {
+  width: 70%;
+  color: rgb(128, 128, 128);
+  margin-right: auto;
+  margin-left: auto;
+}
+.home {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .courses {
+  width: 70%;
+  color: rgb(128, 128, 128);
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+/*ABOUT*/
+
+body {
+  background-color: #e8e9eb;
+}
+
+.Aboutstyle {
+  display: block;
+  margin: 30px;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+  background-color: #ffffff7a;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about {
+  width: 100%;
+  color: rgb(128, 128, 128);
+}
+
+.mainheading01 {
+  color: rgb(255, 145, 0);
+  text-align: center;
+  font-size: 30px;
+  width: 80%;
+  border: solid rgba(128, 128, 128, 0.431);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.heading01 {
+  color: #ff9318;
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+}
+
+/*CONTACT*/
+.contact {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(128, 128, 128);
+}
+
+.heading02 {
+  color: #ff9318;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+.forgotpasstest {
+  color: #ff9318;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  display: inline-block;
+  width: fit-content;
+  float: left;
+}
+
+.donthaveanaccount {
+  color: #ff9318;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  float: right;
+  display: inline-block;
+}
+
+.carrybox {
+  padding: 8px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.911);
+  border-radius: 20px;
+  padding: 10px;
+  overflow: hidden;
+}
+.hp {
+  background-color: rgb(28, 207, 28);
+  padding: 8px;
+  border: none;
+  color: #e8e9eb;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  margin: 20px;
+}
+button,
+Link,
+a {
+  text-decoration: none;
+  color: #ff9318;
+}
+.Submit {
+  background-color: #ff9318;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+}
+.submitcarry {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ptag {
+  padding: 10px;
+  text-align: justify;
+  font-weight: bolder;
+  color: rgb(128, 128, 128);
+}
+
+.inputfield {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-weight: bold;
+  resize: vertical;
+  display: inline;
+  color: rgb(128, 128, 128);
+  height: 45px;
+}
+
+input,
+select {
+  padding: 12px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  resize: vertical;
+  display: inline;
+}
+
+.carrybox02 {
+  padding: 10px;
+  margin: 20px;
+  background-color: #ffffffd2;
+  border-radius: 20px;
+  padding: 10px;
+  width: 98%;
+}
+
+.container {
+  margin: 30px;
+  width: 100%;
+  background-color: #ffffff94;
+  border-radius: 20px;
+  padding: 20px;
+  height: 410px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagetags {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textcontents {
+  text-align: justify;
+  padding: 10px;
+  font-weight: bold;
+  width: 345px;
+}
+.Signinoutup {
+  color: #e8e9eb;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff9318;
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  float: right;
+  margin: 10px;
+  text-decoration: none;
+}
+.logo {
+  width: 50px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+  .donthaveanaccount {
+    text-align: center;
+    width: 100%;
+  }
+  .forgotpasstest {
+    text-align: center;
+    width: 100%;
+  }
+  .logo {
+    width: 50px;
+  }
+  .loading {
+    margin-top: 50%;
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
+
+  .Submit {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .Holder01,
+  .Holder02 {
+    display: block;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    float: left;
+  }
+  .Aboutstyle {
+    width: 80%;
+  }
+  .container {
+    display: block;
+    width: 100%;
+  }
+  .imagetags {
+    width: 90%;
+  }
+  .textcontents {
+    text-align: justify;
+    padding: 10px;
+    font-weight: bold;
+    width: 90%;
+  }
+
+  .heading02 {
+    font-size: 20px;
+  }
+
+  .courses,
+  .queries,
+  .signin,
+  .signup,
+  .studentsignin,
+  .facultysignin,
+  .adminSignin,
+  .forgotpassword,
+  .addcourses,
+  .updateuser,
+  .createassets,
+  .adminsignin {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Aboutstyle {
+    width: 95%;
+  }
+  body {
+    background-color: #e8e9eb;
+  }
+  .contact {
+    width: 100%;
+  }
+  .Upload {
+    padding: 2px;
+    width: fit-content;
+  }
+}
+
+/*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+
+.FileHolder {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selectfile {
+  border: none;
+  width: 50px;
+  padding: 20px;
+}
+input[type="file"] {
+  border: none;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff9318;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9318;
+}
+/* student style */
+
+input,
+textarea,
+div,
+p {
+  font-family: "Playfair Display", serif;
+}
+
+.Submitbutton {
+  background-color: #ff9318;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.invoicelable {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #525252;
+}
+.invoiceinput {
+  border: none;
+  border-bottom: solid rgb(141, 141, 141) 1px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+td {
+  margin: 10px;
+}
+tr {
+  width: 100%;
+}
+
+.invoiceimg {
+  width: 100px;
+}
+
+#print {
+  background-color: #ff9318;
+  padding: 8px;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px;
+  width: fit-content;
+  text-align: center;
+}
+#navbar {
+  display: block;
+}

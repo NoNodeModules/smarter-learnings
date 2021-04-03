@@ -1,0 +1,56 @@
+{
+  "name": "smarter-learnings",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "apexcharts": "^3.26.0",
+    "axios": "^0.21.1",
+    "js-file-download": "^0.4.12",
+    "merge-json": "0.1.0-b.3",
+    "ngx-print": "*",
+    "react": "^16.13.1",
+    "react-apexcharts": "^1.3.7",
+    "react-client-session": "0.0.7",
+    "react-crud-table": "^0.3.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^4.2.0",
+    "react-native": "^0.64.0",
+    "react-responsive-animate-navbar": "^1.0.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-toastify": "^7.0.3",
+    "reactjs-popup": "^2.0.4",
+    "redux": "^4.0.5",
+    "redux-react-session": "^2.6.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "set PORT=80 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
